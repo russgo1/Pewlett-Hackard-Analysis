@@ -33,24 +33,24 @@ The following table, with query below, shows the total number of mentorship-elig
 
 <img width="301" alt="MENT_TITLE_1" src="https://user-images.githubusercontent.com/114126935/202866483-3fe4981a-b476-4182-911c-fd164d8f6f79.png">
 
-`SELECT COUNT(title) AS "Total Employees",
-	title AS "Title"
-FROM mentorship_eligibilty
-GROUP BY title
-ORDER BY "Total Employees" DESC;`
+`	SELECT COUNT(title) AS "Total Employees",
+		title AS "Title"
+	FROM mentorship_eligibilty
+	GROUP BY title
+	ORDER BY "Total Employees" DESC;`
 
 The following table, with query below, shows that the company has 167,666 current employees born in 1956 or later (not part of the 'silver-tsunami'). 
 
 <img width="418" alt="YNG_EMP_1" src="https://user-images.githubusercontent.com/114126935/202866967-3113c962-c784-4920-a790-7ed8bdb4a118.png">
 
-`SELECT DISTINCT ON (e.emp_no) e.emp_no,
-	de.to_date,
-	e.birth_date
-FROM employees AS e 
-LEFT JOIN dept_emp AS de
-ON (e.emp_no = de.emp_no)
-WHERE to_date = '9999-01-01'
-AND (e.birth_date > '1955-12-31')
-ORDER BY e.emp_no;`
+`	SELECT DISTINCT ON (e.emp_no) e.emp_no,
+		de.to_date,
+		e.birth_date
+	FROM employees AS e 
+	LEFT JOIN dept_emp AS de
+	ON (e.emp_no = de.emp_no)
+	WHERE to_date = '9999-01-01'
+	AND (e.birth_date > '1955-12-31')
+	ORDER BY e.emp_no;`
 
 With this many employees retained and over 70,000 employees soon to retire, it seems wasteful to mentor a mere 1,549 employees for leadership roles. This number makes up less than 1% of Pewlett Hackard's employees not-ready for ritrement. With so many employees eligible to become mentors, the company should consider opening the mentorship program to younger employees or employees who show outstanding performance or a special interest in the program. Perhaps menotors can be prompted to select employees they see as most likely to benefit from such a program. 
