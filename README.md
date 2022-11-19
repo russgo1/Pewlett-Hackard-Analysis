@@ -1,7 +1,7 @@
 # Pewlett Hackard Analysis
 
 ## Overview
-The purpose of this analysis is to help a fictitious company, Pewlett Hackard, with many thousands of employees prepare for the mass departure of retirement-ready employees, including some department managers and senior staff. This analysis makes use of an SQL database to supply an overview of,
+The purpose of this analysis is to help a fictitious company, Pewlett Hackard, prepare for the mass departure of retirement-ready employees, including some department managers and senior staff. This analysis makes use of an SQL database to supply an overview of,
 1. Who may be leaving the company soon,
 2. What positions these soon-to-be retirees currently hold,
 3. How many of them are there, and 
