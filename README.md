@@ -4,7 +4,7 @@
 The purpose of this analysis is to help a fictitious company, Pewlett Hackard, prepare for the mass departure of retirement-ready employees, including some department managers and senior staff. This analysis makes use of an SQL database to supply an overview of,
 1. Who may be leaving the company soon,
 2. What positions these soon-to-be retirees currently hold,
-3. How many of them are there, and 
+3. How many employees hold these positions, and 
 4. Who may be good cnadidates for specialized trainging to replace them. 
 
 ## Results
