@@ -5,7 +5,7 @@ The purpose of this analysis is to help a fictitious company, Pewlett Hackard, p
 1. Who may be leaving the company soon,
 2. What positions these soon-to-be retirees currently hold,
 3. How many employees hold these positions, and 
-4. Who may be good cnadidates for specialized trainging to replace them. 
+4. Who may be good candidates for specialized trainging to replace them. 
 
 ## Results
 * A massive 72,458 current Pewlett Hackard employees will soon be eligible for retirment and may soon leave the company.
